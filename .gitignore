@@ -1,0 +1,25 @@
+# 构建输出
+[Bb]in/
+[Oo]bj/
+dist/
+dist2/
+
+# 本地运行目录（放编译好的 exe，不入库）
+app/
+
+# 发布打包
+release/
+release-staging/
+*.zip
+*.nupkg
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
